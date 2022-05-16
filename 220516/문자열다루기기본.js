@@ -13,7 +13,7 @@ function solution(s) {
     //논리연산자 && ->AND연산자/피연산자가 모두 true일경우에만 true가됨
     for(let i=0;i< s.length;i++) {
         if(isNaN(s)) return false;} // 각 자리중에 숫자가 아닌 것이 하나라도 있으면 false 반환
-    //isNaN 매개변수가 숫자인지 검사하는 함수(NaN은 Not a Number)
+    //isNaN 매개변수가 숫자인지 검사하는 함수( NaN은 Not a Number )
 
     return true;// 위의 모든 조건에 포함되지 않으면  (길이가 4 혹은 6이고, 숫자로만 구성되어 있으면) true 반환
 }
